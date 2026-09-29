@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 
 st.title("Currency Converter")
+st.caption("Live exchange rates powered by the Frankfurter API")
 
 amount = st.number_input("Amount", min_value=0.0, value=100.0)
 from_currency = st.text_input("From currency", "USD")
